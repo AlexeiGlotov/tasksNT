@@ -28,8 +28,8 @@ for c in arr_point:
     b = pow(int(arr_coords[1]),2)
 
     if a < b:
-        print('1') # Лежит внутри
+        print('1') # Внутри
     elif a > b:
-        print('2') # Лежит снаружи
+        print('2') # Снаружи
     elif a == b:
-        print('0') # Лежит на окружности
+        print('0') # На окружности
